@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+//----------blog-page-------------//
+@media screen and (min-width: 768px) {
+    .img {
+      height:100%;
+      object-fit: cover;
+    }
+  }
+//--------------footer------------------------//
+.footer-section {
+  position: relative;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.contact-file-input {
+  position: fixed;
+  left: -100vw;
+}
+//-------------------home-page------------------//
+
+//----------contact-page--------//
+.btn1 {
+  width: 100%;
+  letter-spacing: 0.3rem;
+}
+
+.form-text {
+  font-size: 1.2rem;
+  color: gray;
+  line-height: 1.8rem;
+}

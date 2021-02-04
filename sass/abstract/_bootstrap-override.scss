@@ -1,0 +1,18 @@
+//=======================override default theme color or add new. text-custom, btn-custom, bg-custom//
+$theme-colors: (
+  primary: #183092,
+  primary-light: #2541B2,
+  danger: #ff4136,
+  black: #000,
+  gray:#C4C4C4,
+  transparent: rgba(0, 0, 0, 0),
+);
+
+//=========== override default spacing. 0 - 20(100px)=================//
+$spacer : 10px;
+$spacers: ( 0:0);
+@for $i from 1 through 20 {
+  $spacers: map-merge($spacers, (
+  $i: ($i * $spacer)/2
+  ));
+}
