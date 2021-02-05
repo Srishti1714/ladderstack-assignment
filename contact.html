@@ -8,11 +8,51 @@
 </head>
 
 <body>
-  <section>
+  <header class="navbar-light position-fixednavbar-light fixed-top d-flex justify-content-end mr-2 mt-2 pt-md-3">
+
+    <button type="button" class="navbar-toggler" data-toggle="modal" data-target="#exampleModalCenter">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</header>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">LOGO</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <nav>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./product.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./category.html">Category</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+  <section class="py-md-8 py-5">
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <h1 class="text-black py-4">Contact Us</h1>
+        <div class="col-12 py-4">
+          <h1 class="text-black py-2">Contact Us</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur delectus quisquam, soluta dolore
             repellendus voluptates nisi</p>
         </div>
@@ -38,7 +78,7 @@
               <div class="custom-file-upload">
                 <label class="text-center p-3 border w-100" for="inputGroupFile01"><span
                     class="font-weight-normal text-primary font-weight-bold">Add file </span>or drop files here</label>
-                <input type="file" class="contact-file-input" id="inputGroupFile01">
+                <input type="file" class="contact-file-input d-none" id="inputGroupFile01">
               </div>
             </div>
             <button type="submit" class="btn btn1 btn-primary text-uppercase py-2 px-0">Submit</button>
@@ -48,67 +88,85 @@
 
     </div>
   </section>
-  <section>
-    <footer class="footer-section bg-gray">
-      <div class="container">
+  <footer class="footer-section bg-gray">
+    <div class="container">
         <div class="footer-cta pt-5 pb-5 text-center text-md-left">
-          <div class="row">
-            <div class="col-xl-4 col-md-4 mb-30">
-              <div class="single-cta">
-                <i class="fas fa-map-marker-alt"></i>
-                <div class="cta-text">
-                  <h4>Find us</h4>
-                  <span>1010 Avenue, sw 54321</span>
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="text-black font-weight-bold">MENU SUBHEADING</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item bg-transparent border-0 pl-0 pt-1"><a href="#">SUB LINK</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 pl-0 pt-1"><a href="#">SUB LINK</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 pl-0 pt-1"><a href="#">SUB LINK</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 pl-0 pt-1"><a href="#">SUB LINK</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 pl-0 pt-1"><a href="#">SUB LINK</a>
+                        </li>
+                    </ul>
                 </div>
-              </div>
-            </div>
-            <div class="col-xl-4 col-md-4 mb-30">
-              <div class="single-cta">
-                <i class="fas fa-phone"></i>
-                <div class="cta-text">
-                  <h4>Call us</h4>
-                  <span>9876543210 0</span>
+                <div class="col-12">
+                    <h3 class="text-black font-weight-bold">MENU SUBHEADING 2</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item bg-transparent border-0 pl-0 pt-1"><a href="#">SUB LINK</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 pl-0 pt-1"><a href="#">SUB LINK</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 pl-0 pt-1"><a href="#">SUB LINK</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 pl-0 pt-1"><a href="#">SUB LINK</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 pl-0 pt-1"><a href="#">SUB LINK</a>
+                        </li>
+                    </ul>
                 </div>
-              </div>
             </div>
-            <div class="col-xl-4 col-md-4 mb-30">
-              <div class="single-cta">
-                <i class="far fa-envelope-open"></i>
-                <div class="cta-text">
-                  <h4>Mail us</h4>
-                  <span>mail@info.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
         <div class="footer-content">
-          <div class="row">
-            <div class="col-xl-4 col-lg-4 mb-50">
-            </div>
-            <div class="col-12 mb-50">
-              <div class="footer-widget">
-                <div class="subscribe-form pb-4">
-                  <form action="#">
-                    <input type="text" placeholder="Email Address">
-                  </form>
+            <div class="row">
+                <div class="col-12 col-lg-4 mb-50">
                 </div>
-              </div>
+                <div class="col-12 mb-50">
+                    <div class="footer-widget">
+                        <div class="subscribe-form pb-4">
+                            <form action="#">
+                                <input type="text" placeholder="Email Address">
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="copyright-area">
-        <div class="row">
-          <div class="col-xl-6 col-lg-6 text-center text-lg-left">
-            <div class="copyright-text">
-              <p>Copyright &copy; 2021, All Right Reserved</p>
+        <div class="copyright-area pl-2">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <p class="text-footer">Privacy Policy</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p class="text-footer">Cookie Policy</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p class="text-footer">Return Policy</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p class="text-footer">Terms & Condition</p>
+                </div>
+                <div class="col-12 text-center">
+                    <div class="copyright-text pt-3">
+                        <p>Copyright &copy; 2021, All Right Reserved</p>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </footer>
-  </section>
-</body>
+    </div>
 
+</footer>
+</body>
+<script src="./js/vendors/jquery.js"></script>
+<script src="./js/vendors/popper.js"></script>
+<script src="./vendors/OwlCarousel2-2.3.4/owl.carousel.min.js"></script>
+<script src="./js/vendors/bootstrap-4.1.3/bootstrap.min.js"></script>
+<script src="./js/main.js"></script>
 </html>
