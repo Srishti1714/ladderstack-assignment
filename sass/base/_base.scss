@@ -1,17 +1,31 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
+}
+//----------------header-------------------//
+.modal-body {
+  .navbar-nav {
+    .nav-item {
+      a {
+        font-size: 1.3rem;
+        line-height: 1.95rem;
+        color: #000;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+      }
+    }
+  }
 }
 //----------blog-page-------------//
 @media screen and (min-width: 768px) {
-    .img {
-      height:100%;
-      object-fit: cover;
-    }
+  .img {
+    height: 100%;
+    object-fit: cover;
   }
+}
 //--------------footer------------------------//
 .footer-section {
   position: relative;
@@ -22,11 +36,11 @@ html {
   .subscribe-form input {
     width: 100%;
     padding: 14px 28px;
-    background: #2E2E2E;
-    border: 1px solid #2E2E2E;
+    background: #2e2e2e;
+    border: 1px solid #2e2e2e;
     color: #fff;
   }
-  .copyright-area{
+  .copyright-area {
     background: #202020;
     padding: 25px 0;
   }

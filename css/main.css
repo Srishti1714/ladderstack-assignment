@@ -4,6 +4,13 @@
 html {
   font-size: 62.5%; }
 
+.modal-body .navbar-nav .nav-item a {
+  font-size: 1.3rem;
+  line-height: 1.95rem;
+  color: #000;
+  font-weight: 400;
+  letter-spacing: 0.5px; }
+
 @media screen and (min-width: 768px) {
   .img {
     height: 100%;
@@ -17,8 +24,8 @@ html {
   .footer-section .subscribe-form input {
     width: 100%;
     padding: 14px 28px;
-    background: #2E2E2E;
-    border: 1px solid #2E2E2E;
+    background: #2e2e2e;
+    border: 1px solid #2e2e2e;
     color: #fff; }
   .footer-section .copyright-area {
     background: #202020;
