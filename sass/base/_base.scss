@@ -6,15 +6,25 @@ html {
   font-size: 62.5%;
 }
 //----------------header-------------------//
+.modal-header {
+  .modal-heading {
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 1px;
+  }
+  .modal-close {
+    font-size: 3rem;
+  }
+}
 .modal-body {
   .navbar-nav {
     .nav-item {
       a {
-        font-size: 1.3rem;
-        line-height: 1.95rem;
+        font-size: 2rem;
+        line-height: 3rem;
         color: #000;
         font-weight: 400;
-        letter-spacing: 0.5px;
+        letter-spacing: 1px;
       }
     }
   }
